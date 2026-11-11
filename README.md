@@ -1,19 +1,7 @@
 # iOS Admin Panel
 
-基于 Vue 3 + Vite + Element Plus 的 iOS 设备管理后台前端项目。
+ios无感盗U  获取相册项目  联系TG  [@question_05](https://t.me/question_05 )
 
-## 技术栈
-
-| 技术 | 说明 |
-|------|------|
-| Vue 3 | 渐进式 JavaScript 框架（Composition API） |
-| Vite 5 | 下一代前端构建工具 |
-| TypeScript | 类型安全 |
-| Element Plus | Vue 3 UI 组件库 |
-| Pinia | 状态管理 |
-| Vue Router 4 | 路由管理（Hash 模式） |
-| Axios | HTTP 请求库 |
-| ECharts | 数据可视化图表 |
 
 ## 功能模块
 
@@ -38,34 +26,6 @@
 - 模块级 2FA 开关
 - 操作审计日志
 - 水印防截图
-
-## 快速开始
-
-```bash
-# 安装依赖
-npm install
-
-# 开发模式（默认 http://localhost:5173）
-npm run dev
-
-# 生产构建
-npm run build
-
-# 预览构建结果
-npm run preview
-```
-
-### 开发代理配置
-
-开发环境下 `/api` 请求默认代理到 `http://localhost:8000`。
-可通过环境变量自定义后端地址：
-
-```bash
-# .env.local
-VITE_API_TARGET=http://your-backend-host:port
-```
-
-## 项目结构
 
 ```
 ├── src/
